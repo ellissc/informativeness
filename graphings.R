@@ -63,6 +63,6 @@ for (i in targets) {
     geom_bar(stat="count")+
     theme(axis.text.x = element_text(angle = 45))+
     ggtitle("verb",i)
-  ggsave(temp_plot, file=paste0("plot_",i,"_8-5.png"), width = 14, height = 10, units = "cm")
+  ggsave(temp_plot, file=paste("plot_",i,"_8-5.png"), width = 14, height = 10, units = "cm")
   
 }
